@@ -5,7 +5,6 @@ from PIL import Image
 import re
 import base64
 from io import BytesIO
-import matplotlib.pyplot as plt
 
 def preprocess_image(image_data):
     # Giải mã base64
