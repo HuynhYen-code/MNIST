@@ -52,6 +52,7 @@ Nếu bạn muốn huấn luyện lại mô hình từ đầu:
 python train_model.py
 ```
 Bạn có thể thay đổi cấu trúc mạng (biến `model`) để thử nghiệm các kiến trúc khác nhau.
+
 Mô hình sẽ được lưu tại model/mnist_cnn.keras.
 
 ## 📝 Ghi chú
