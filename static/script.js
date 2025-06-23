@@ -96,7 +96,7 @@ function predictDigit(){
     .then(res => res.json())
     .then(data => {
         const resultEl = document.getElementById('result');
-        resultEl.textContent = `Cục vàng đã viết số ${data.prediction}`;
+        resultEl.textContent = `Bạn đã viết số ${data.prediction}`;
         
         // Thêm hiệu ứng flash
         resultEl.classList.add('flash');
