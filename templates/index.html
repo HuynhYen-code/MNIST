@@ -10,12 +10,14 @@
 </head>
 <body>
     <div id="header">
-        <h1>Trang web dự đoán chữ số viết tay</h1>
+        <h1>Trang web dự đoán chữ số viết tay (MNIST) </h1>
     </div>
     <h2 id="instruction">Mời bạn viết một chữ số từ (0-9)</h2>
     <canvas id="canvas" width="280" height="280"></canvas><br>
-    <button onclick="clearCanvas()">Xóa</button>
-    <button onclick="predictDigit()">Dự đoán</button>
+    <div id="button-container">
+        <button onclick="clearCanvas()">Xóa</button>
+        <button onclick="predictDigit()">Dự đoán</button>
+    </div>
     <div id="answer-box">
         <h3 id="result" class="prediction-result"></h3>
     </div>

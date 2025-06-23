@@ -2,6 +2,8 @@ canvas{
     border: 5px solid palevioletred;
     background-color: white;
     cursor: crosshair;
+    margin: 0 auto; 
+    display: block; /* Center the canvas */
 }
 
 button{
@@ -30,6 +32,13 @@ body{
 button:hover{
     background-color: palevioletred;
     color: white;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 10px;
 }
 
 #instruction{
@@ -67,14 +76,15 @@ button:hover{
 
 #answer-box{
     width: 500px;
-    height: auto
+    height: auto;
     border: 2px solid palevioletred;
     border-radius: 10px;
     background-color: white;
     font-size: 50px;
     text-align: center;
-    margin: 0 auto; /* Center the box horizontally */
+    margin: 20px auto; 
     font-family: 'Courier New', Courier, monospace;
+    opacity: 0; /* ẩn */
 }
 
 #Flex{  

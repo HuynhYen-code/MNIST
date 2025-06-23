@@ -1,5 +1,6 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
+const answer = document.getElementById('answer-box');
 let drawing = false;
 
 function clearCanvas() {
@@ -95,9 +96,9 @@ function predictDigit(){
     })
     .then(res => res.json())
     .then(data => {
+        answer.style.opacity = '1';
         const resultEl = document.getElementById('result');
         resultEl.textContent = `Bạn đã viết số ${data.prediction}`;
-        
         // Thêm hiệu ứng flash
         resultEl.classList.add('flash');
         setTimeout(() => resultEl.classList.remove('flash'), 500);
