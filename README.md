@@ -53,8 +53,6 @@ python train_model.py
 ```
 Bạn có thể thay đổi cấu trúc mạng (biến `model`) để thử nghiệm các kiến trúc khác nhau.
 Mô hình sẽ được lưu tại model/mnist_cnn.keras.
-## 📷 Demo
-<p align="center"> <img src="https://github.com/HuynhYen-code/MNIST/blob/main/demo.png" width="400"/> </p>
 
 ## 📝 Ghi chú
 - Dự án phục vụ mục đích học tập, chưa tối ưu về performance hoặc UX
